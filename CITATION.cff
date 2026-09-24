@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: Contextual Resume Compression with RAG - re-implementation
+message: If you use this work, please cite it as below.
+type: software
+authors:
+  - family-names: Dubey
+    given-names: Ankit
+repository-code: https://github.com/<your-username>/resume-rag-extractor
+license: MIT
+abstract: >-
+  A re-implementation, with an extended evaluation, of "Contextual Compression
+  of Unstructured Resumes using VectorStore RAG" (IEEE ICCRDA 2025). Adds a
+  rule-based baseline, field-level precision/recall/F1, a random-pairing floor
+  for cosine similarity, a five-way retrieval and compression ablation with
+  token and cost accounting, and a categorised error analysis.
+references:
+  - type: conference-paper
+    title: >-
+      Contextual Compression of Unstructured Resumes using VectorStore RAG
+    doi: 10.1109/icdsis65355.2025.11070875
+    year: 2025

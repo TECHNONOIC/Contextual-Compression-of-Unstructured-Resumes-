@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.git/
+data/raw/
+data/gold/
+results/
+notebooks/
+.pytest_cache/

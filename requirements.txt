@@ -1,0 +1,23 @@
+# Core pipeline
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+faiss-cpu>=1.8.0
+openai>=1.40.0
+pydantic>=2.7.0
+pypdf>=4.2.0
+
+# API
+flask>=3.0.0
+gunicorn>=22.0.0
+
+# Evaluation
+rapidfuzz>=3.9.0
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# Dev
+pytest>=8.2.0
+kaggle>=1.6.0

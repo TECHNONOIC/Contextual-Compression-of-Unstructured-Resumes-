@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# No resume data in the repo - only download scripts and split ID lists.
+data/raw/
+data/gold/
+!data/splits/
+
+# Reported tables are committed; caches and per-resume dumps are not.
+results/*
+!results/*.md
+!results/test_heuristic.json
+!results/dev_heuristic.json
+!results/test_heuristic_dense.json
+!results/test_llm_ollama.json
+!results/test_heuristic_n10.json
+.pytest_cache/
+.ipynb_checkpoints/
